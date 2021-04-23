@@ -87,7 +87,7 @@ export default function SerchOtherShop() {
       setOverlay(openOverlay);
     }
   };
-
+  console.log('Wlecrommeee');
   return (
     <div className="search-header">
       <div>
