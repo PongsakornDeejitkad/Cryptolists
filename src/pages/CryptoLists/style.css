@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.lists-header-cryptolist {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 40rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  justify-content: center;
+  margin-left: 10%;
+}
+.lists-cryptolist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.lists-crypto1-crptolist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2%;
+  font-weight: 400;
+}
+.lists-crypto2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+}
+
+.lists-img {
+  height: 50px;
+  width: 50px;
+}
+
+.lists-btn-crypto {
+  transform: translateX(100%);
+  color: #444;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  padding: 0.5rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+.lists-btn-crypto:active {
+  transform: translate(100%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.lists-crypto-topMove {
+  transform: translateX(0%);
+  width: 20rem;
+  height: 10rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  margin: 0% -4% 1% 6%;
+  padding: 1%;
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+}
+.lists-crypto-topMove:hover,
+.lists-crypto-topMove:active {
+  transform: translate(0%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+.topMove {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  justify-content: center;
+  margin: 0% 0% 0% 15%;
+}
+.lists-img-topMove {
+  width: 6rem;
+  height: 6rem;
+  margin: 10% 0% 0% 20%;
+}
+.topMove-header {
+  display: flex;
+  margin: 19% 0% 1% 10%;
+}

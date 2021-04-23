@@ -1,0 +1,91 @@
+.fri {
+  display: flex;
+  flex-direction: column;
+}
+
+.friends {
+  display: flex;
+}
+.friends-shop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.friends-shop-lists-feature2 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  padding: 2%;
+  margin-left: 5%;
+}
+.friends-header {
+  margin-top: -6%;
+  margin-bottom: 7%;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.lists-btn-feature2 {
+  transform: translateX(100%);
+  color: #444;
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  transition: all 0.2s;
+
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+
+  padding: 0.5rem 2.5rem;
+  border-radius: 50rem;
+  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+.lists-btn-feature2:active {
+  transform: translate(100%, 3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.lists-btn-serch4 {
+  text-align: center;
+  margin: 2% 0% 2% 2%;
+}
+
+.lists-btn-serch5 {
+  text-align: center;
+  margin: 2% -20% 3% 0%;
+}
+
+.btn-text-feature2 {
+  display: inline-block;
+  background: none;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--color-primary);
+  border: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 20%;
+  margin-left: 80%;
+  padding-top: 5%;
+}
+.friends-shop-picture {
+  width: 300px;
+  height: 300px;
+}

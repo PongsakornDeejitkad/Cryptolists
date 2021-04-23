@@ -1,0 +1,36 @@
+.footer {
+  padding: 5rem 5rem;
+  background-color: #37383d;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.footer-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.footer-item {
+  margin-right: 4rem;
+}
+.footer-link {
+  font-size: 1rem;
+  color: #eee;
+  text-decoration: none;
+}
+.footer-img {
+  justify-content: center;
+  width: 8%;
+  height: 8%;
+  margin-left: 45%;
+  margin-bottom: 5%;
+}
+
+.footer-end {
+  text-align: center;
+  color: #aaa;
+  margin-bottom: -5%;
+  width: 80%;
+  margin-left: 10%;
+}
