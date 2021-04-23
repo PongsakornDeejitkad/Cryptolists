@@ -137,6 +137,7 @@ export default function App() {
         setOtherShop(data);
       }, []);
   });
+  console.log('Wlecommeee');
 
   return (
     <CartContext.Provider value={{ cart, setCart, otherShop }}>
